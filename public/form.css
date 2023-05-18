@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding:0;
+    background-image:url('bg.jpeg');
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family: Helvetica;
+    height:719px;
+}
+#container {
+    width:360px;
+    height:700px;
+    border-radius:10px;
+    overflow:scroll;
+    background-color: #fff;
+}
+#container #ss {
+    text-align:center;
+    width:360px;
+}
+#text {
+    padding:10px;
+    text-align:center;
+    font-size:40px;
+}
+#text2 label {
+    width:340px;
+    height:30px;
+    margin:10px 20px 0px 20px;
+}
+#text2 input {
+    width:304px;
+    height:30px;
+    border:3px solid #8484ff;
+    border-radius:8px;
+    margin:10px 20px;
+    outline:none;
+    padding-left:8px;
+}
+#text2 input:hover {
+    border:3px solid #2222ff;
+    box-shadow:1px 1px 8px #99f;
+}
+#text2 #mole {
+    margin:2px 20px;
+    width:264px;
+}
+#text2 #chk {
+    width:20px;
+    height:20px;
+    padding-left:0px;
+    margin:0px;
+}
+#tran {
+    padding:20px;
+}
+#tran button {
+    width:320px;
+    height:50px;
+    border-radius:6px;
+    background-color:#4400dd;
+    border:none;
+    color:white;
+    font-weight:600;
+    font-size:20px;
+}
+#chec {
+    width:320px;
+    margin-left:20px;
+}
+#image {
+    margin:4px 40px;
+    border-radius:8px;
+}
+#text2 #chec #fe, #text2 #chec #ma {
+    width:20px;
+    height:20px;
+    padding-left:0px;
+    margin:10px 0px;
+    border-radius: 50%;
+}
+#radi {
+    width:320px;    
+    margin:8px 20px;
+}
+#text2 #radi input {
+    width:20px;
+    height:20px;
+    border:0px solid #8484ff;
+    border-radius:0px;
+    margin:0px 4px 0px 20px;
+    outline:none;
+    padding-left:10px;    
+}
+#text2 #radi input:hover {
+    box-shadow:0px 0px 0px #000;
+}

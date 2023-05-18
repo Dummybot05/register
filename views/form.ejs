@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+      <title>Register</title>
+      <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="text">
+        <b>Register</b>
+      </div>
+      <div id="ss">*For students only</div>
+      <img src="school.png" id="image" />      
+      <p style="color:red; text-align:center; margin:2px auto;"><%= errTick %></p>      
+      <form method="POST" action="/data">
+        <div id="text2">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Name" name="name" />
+                
+          <label for="fname">Father Name</label>
+          <input type="text" id="fname" placeholder="Father Name" name="fname" />
+                
+          <label for="mname">Mother Name</label>
+          <input type="text" id="mname" placeholder="Mother Name" name="mname" />
+                
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" />
+                
+          <label for="gender">Gender</label>
+          <div id="radi">
+             <input type="radio" id="ma" name="gender" value="Male" />Male
+             <input type="radio" id="fe" name="gender" value="Female" />Female
+          </div>
+                
+          <label for="email">Personal Email</label>
+          <input type="email" id="email" placeholder="Email Id" name="email" />
+                
+          <label for="phon">Mobile number</label>
+          <input type="tel" id="phon" placeholder="Mobile number" name="mob" />
+                
+          <label for="fphon">Father Mobile number</label>
+          <input type="tel" id="fphon" placeholder="Father Mobile number" name="fmob" />
+                
+          <label for="aad">Aadhar Card (optional)</label>
+          <input type="number" id="aad" placeholder="Aadhar number (optional)" name="aadhar" />
+          
+          <label for="pan">PAN (optional)</label>
+          <input type="text" id="pan" placeholder="PAN (optional)" name="pan" />
+
+          <label for="mole">Mole's</label>
+          <ol>
+            <li>
+              <input type="text" id="mole" placeholder="Ex. A mole on right ..." name="mole1" />
+            </li>
+             <li>                   
+               <input type="text" id="mole" placeholder="Ex. A mole on left ..." name="mole2" />
+             </li>
+          </ol>
+          
+          <div id="chec">
+            <input type="checkbox" id="chk" name="chkbx" /> By clicking this you agree above details are correct
+          </div>
+        </div>
+        <div id="tran">
+           <button>Submit</button>
+        </div>
+       </form>
+   </div>
+   <script>
+var hei = document.getElementsByTagName("body")[0];
+hei.style.height = window.innerHeight+"px";
+  </script>
+  </body>
+</html>

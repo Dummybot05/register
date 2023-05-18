@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    font-family: Helvetica;
+    background-image:url('bg.jpeg')
+}
+#container {
+    width:360px;
+    height:600px;
+    border-radius:10px;
+    background-color:#fff;
+}
+#text {
+    padding:30px;
+    text-align:center;
+    margin-top:10px;
+}
+#container img {
+    border-radius:10px;
+    margin:40px;
+}
+#tran {
+    padding:20px;
+}
+#tran p {
+    text-align:center;
+    font-size:20px;
+}
+#tran button {
+    width:320px;
+    height:50px;
+    border-radius:6px;
+    background-color:#4400dd;
+    border:none;
+    color:white;
+    font-weight:600;
+    font-size:20px;
+}
